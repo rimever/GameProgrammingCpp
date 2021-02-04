@@ -120,7 +120,7 @@ void Game::LoadData() {
     bg->SetScreenSize(Vector2(1024.f, 768.f));
     bgtexs = {
             GetTexture("Assets/Stars.png"),
-            GetTexture("Assets/Starts.png")
+            GetTexture("Assets/Stars.png")
     };
     bg->SetBGTextures(bgtexs);
     bg->SetScrollSpeed(-200.f);

@@ -13,7 +13,7 @@ void BGSpriteComponent::Update(float deltaTime) {
     SpriteComponent::Update(deltaTime);
     for (auto &bg :this->mBGTextures) {
         bg.mOffset.x += this->mScrollSpeed * deltaTime;
-        if (bg.mOffset.x < this->mScreenSize.x) {
+        if (bg.mOffset.x < -this->mScreenSize.x) {
             bg.mOffset.x = (this->mBGTextures.size() - 1) * this->mScreenSize.x - 1;
         }
     }
