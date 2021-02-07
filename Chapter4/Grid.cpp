@@ -10,11 +10,11 @@
 
 Grid::Grid(class Game *game) : Actor(game), mSelectedTile(nullptr) {
     this->mTiles.resize(NumRows);
-    for (size_t i = 0; i < NumRows; ++i) {
+    for (size_t i = 0; i < this->mTiles.size(); i++) {
         mTiles[i].resize(NumCols);
     }
-    for (size_t i = 0; i < NumRows; ++i) {
-        for (size_t j = 0; j < NumCols; ++j) {
+    for (size_t i = 0; i < NumRows; i++) {
+        for (size_t j = 0; j < NumCols; j++) {
             this->mTiles[i][j] = new Tile(GetGame());
             this->mTiles[i][j]->SetPosition(Vector2(TileSize / 2.0f + j * TileSize, StartY + i * TileSize));
         }
@@ -22,17 +22,17 @@ Grid::Grid(class Game *game) : Actor(game), mSelectedTile(nullptr) {
     GetStartTile()->SetTileState(Tile::EStart);
     GetEndTile()->SetTileState(Tile::EBase);
     for (size_t i = 0; i < NumRows; i++) {
-        for (size_t j = 0; j < NumCols; ++j) {
+        for (size_t j = 0; j < NumCols; j++) {
             if (i > 0) {
                 this->mTiles[i][j]->mAdjacent.push_back(this->mTiles[i - 1][j]);
             }
             if (i < NumRows - 1) {
                 this->mTiles[i][j]->mAdjacent.push_back(this->mTiles[i + 1][j]);
             }
-            if (i > 0) {
+            if (j > 0) {
                 this->mTiles[i][j]->mAdjacent.push_back(this->mTiles[i][j - 1]);
             }
-            if (i < NumCols - 1) {
+            if (j < NumCols - 1) {
                 this->mTiles[i][j]->mAdjacent.push_back(this->mTiles[i][j + 1]);
             }
         }
@@ -58,7 +58,7 @@ void Grid::ProcessClick(int x, int y) {
     if (y >= 0) {
         x /= static_cast<int>(TileSize);
         y /= static_cast<int>(TileSize);
-        if (x >= 0 && static_cast<int>(NumCols) && y >= 0 && y < static_cast<int>(NumRows)) {
+        if (x >= 0 && x < static_cast<int>(NumCols) && y >= 0 && y < static_cast<int>(NumRows)) {
             SelectTile(y, x);
         }
     }
@@ -66,7 +66,7 @@ void Grid::ProcessClick(int x, int y) {
 
 bool Grid::FindPath(class Tile *start, class Tile *goal) {
     for (size_t i = 0; i < NumRows; i++) {
-        for (size_t j = 0; j < NumCols; ++j) {
+        for (size_t j = 0; j < NumCols; j++) {
             this->mTiles[i][j]->g = 0.0f;
             this->mTiles[i][j]->mInOpenSet = false;
             this->mTiles[i][j]->mInClosedSet = false;
@@ -115,7 +115,7 @@ bool Grid::FindPath(class Tile *start, class Tile *goal) {
 
 void Grid::UpdatePathTiles(class Tile *start) {
     for (size_t i = 0; i < NumRows; i++) {
-        for (size_t j = 0; j < NumCols; ++j) {
+        for (size_t j = 0; j < NumCols; j++) {
             if (!(i == 3 && j == 0) && !(i == 3 && j == 15)) {
                 this->mTiles[i][j]->SetTileState(Tile::EDefault);
             }
