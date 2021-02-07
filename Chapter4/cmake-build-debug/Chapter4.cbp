@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chapter4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2\;CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2_mixer\;CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2_image\;CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2_ttf\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4">
+				<Option output="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Chapter4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4/fast">
+				<Option output="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Chapter4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/AIComponent.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/AIComponent.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Actor.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Actor.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Bullet.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Bullet.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/CircleComponent.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/CircleComponent.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Component.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Component.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Enemy.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Enemy.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Game.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Game.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Grid.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Grid.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Math.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Math.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/MoveComponent.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/MoveComponent.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/NavComponent.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/NavComponent.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Search.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/SpriteComponent.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/SpriteComponent.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Tile.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Tile.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Tower.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/Tower.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/AIState.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/cmake-build-debug/AIState.h">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/main.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/../../../../usr/local/lib/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/../../../../usr/local/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/../../../../usr/local/lib/cmake/SDL2_mixer/SDL2_mixerConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2_mixer\"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/../../../../usr/local/lib/cmake/SDL2_image/SDL2_imageConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2_image\"/>
+		</Unit>
+		<Unit filename="/Users/rim/GameProgrammingCpp/Chapter4/../../../../usr/local/lib/cmake/SDL2_ttf/SDL2_ttfConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2_ttf\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
